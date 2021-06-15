@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Book />
+        <Book frase="Viatge a la lluna" />
       </div>
     );
   }

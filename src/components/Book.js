@@ -4,7 +4,7 @@ class Book extends Component {
     render() {
         return (
             <div>
-                <p>Viatge a la lluna</p>
+                <p>{this.props.frase}</p>
             </div>
         )
     }
