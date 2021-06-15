@@ -1,10 +1,11 @@
-import { Component } from "react";
+import React, { Component } from "react";
 
 class Book extends Component {
     render() {
         return (
             <div>
-                <p>{this.props.frase}</p>
+                <h1>{this.props.book.title}</h1>
+                <p>{this.props.book.author}</p>
             </div>
         )
     }
